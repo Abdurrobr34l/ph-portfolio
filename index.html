@@ -6,15 +6,165 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Web Developer Portfolio</title>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="image/favicon.png" type="image/x-icon">
 </head>
 
 <body>
   <!-- *Header Start -->
-  <header></header>
+  <header>
+    <!-- *Header -->
+    <nav class="container flex justfy-between items-center">
+
+      <!-- ?Logo -->
+      <div class="logo">
+        <a href="index.html">
+          <img src="image/logo.png" alt="it is the website logo image" width="110" height="70">
+        </a>
+      </div>
+
+      <!-- ?Menu -->
+      <div class="menu">
+        <ul class="flex items-center gap-50">
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#"><button>Hire Me</button></a></li>
+        </ul>
+      </div>
+
+    </nav>
+
+    <!-- *Hero -->
+    <section class="hero">
+      <div class="container flex justfy-between items-center">
+
+        <!-- ?Content -->
+        <div class="content">
+          <span>Hi, I am</span>
+          <h1>Abdur Rob</h1>
+          <p>Transforming visions into seamless, responsive websites that engage and inspire. With expertise in Mern
+            Stack & WordPress Customisation, I build custom solutions that bring your ideas to life</p>
+
+          <div class="btns flex gap-30">
+            <button>Download CV</button>
+            <button class="opposit-hover">Contact</button>
+          </div>
+        </div>
+
+        <!-- ?Image -->
+        <div class="image">
+          <img src="image/mine.png" alt="">
+        </div>
+
+      </div>
+    </section>
+  </header>
   <!-- *Header End -->
 
   <!-- *Main Start -->
-  <main></main>
+  <main>
+    <!-- * About ME -->
+    <section class="about-me">
+      <div class="container about-me-container">
+
+        <div class="contents">
+
+          <div class="titles">
+            <h2 class="title">About Me</h2>
+            <p class="desciption">I am passionate about creating user-friendly and visually appealing websites. I
+              specialize in building responsive designs that ensure seamless functionality across all devices. By
+              staying
+              updated on the latest industry trends and best practices, I produce clean, efficient, and understandable
+              code. I look forward to contributing to exciting projects and continuing my growth in this fast-paced
+              field.
+            </p>
+          </div>
+
+          <div class="about-items flex justify-center items-center gap-50">
+
+            <div class="about-item">
+              <h3 class="mini-title">Name:</h2>
+                <p class="detail">Abdur Rob</p>
+            </div>
+
+            <div class="about-item">
+              <h3 class="mini-title">Email:</h2>
+                <p class="detail">abdurrobr34l@gmail.com</p>
+            </div>
+
+            <div class="about-item">
+              <h3 class="mini-title">Date of birth:</h2>
+                <p class="detail">30 March 2002</p>
+            </div>
+
+            <div class="about-item">
+              <h3 class="mini-title">From:</h2>
+                <p class="detail">Chittagong, Bangladesh</p>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- *What I Do Start -->
+    <section class="skills">
+      <div class="container">
+
+        <div class="titles text-center">
+          <h2 class="title">What I do</h2>
+          <p class="desciption">
+            I’m a passionate front-end developer with a strong foundation in HTML, CSS, Tailwind, and Bootstrap. Over
+            the past couple of years, I’ve built websites, crafted responsive email templates, and worked with tools
+            like WordPress and Figma to turn ideas into clean, user-friendly designs. I’ve also gained valuable hands-on
+            experience through an internship at a growing agency. Curious to explore my journey in more detail? Feel
+            free to check out my online resume and project portfolio.
+          </p>
+        </div>
+
+        <div class="skill-cards flex gap-30">
+
+          <div class="card">
+            <img src="image/icons/js.png" alt="javascript image icon">
+            <div class="skill-name">Vanilla JavaScript</div>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam, recusandae modi illum nostrum corrupti
+              unde accusamus quasi est, facere dicta ducimus explicabo quisquam deserunt praesentium!.</p>
+          </div>
+          <div class="card">
+            <img src="image/icons/react.png" alt="React image icon">
+            <div class="skill-name">React</div>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam, recusandae modi illum nostrum corrupti
+              unde accusamus quasi est, facere dicta ducimus explicabo quisquam deserunt praesentium!.</p>
+          </div>
+          <div class="card">
+            <img src="image/icons/nodejs.png" alt="Node.js image icon">
+            <div class="skill-name">Node.js</div>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam, recusandae modi illum nostrum corrupti
+              unde accusamus quasi est, facere dicta ducimus explicabo quisquam deserunt praesentium!.</p>
+          </div>
+          <div class="card">
+            <img src="image/icons/mongo.png" alt="MongoDB image icon">
+            <div class="skill-name">MongoDB</div>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam, recusandae modi illum nostrum corrupti
+              unde accusamus quasi est, facere dicta ducimus explicabo quisquam deserunt praesentium!.</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <section style="margin-top: 130px;">
+      <div class="container">
+
+        <div class="titles text-center">
+          <h2 class="title">A summary of My Resume</h2>
+        </div>
+
+      </div>
+    </section>
+  </main>
   <!-- *Main End -->
 
   <!-- *Footer Start -->
@@ -24,18 +174,3 @@
 </body>
 
 </html>
-
-<!-- …or create a new repository on the command line
-echo "# ph-portfolio" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/Abdurrobr34l/ph-portfolio.git
-git push -u origin main
-
-
-…or push an existing repository from the command line
-git remote add origin https://github.com/Abdurrobr34l/ph-portfolio.git
-git branch -M main
-git push -u origin main -->
