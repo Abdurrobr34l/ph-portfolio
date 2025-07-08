@@ -42,7 +42,7 @@ button:hover {
   outline: 1px solid var(--primary-clr);
 }
 .opposit-hover:hover {
-    color: var(--white-clr);
+  color: var(--white-clr);
   background-color: var(--primary-clr);
   outline: none;
 }
@@ -71,6 +71,9 @@ a:hover {
 }
 .items-center {
   align-items: center;
+}
+.flex-colum {
+  flex-direction: column;
 }
 .gap-30 {
   gap: 30px;
@@ -149,10 +152,10 @@ header {
 }
 .titles .desciption {
   margin: 30px 0;
-  line-height: 22px
-  colo
+  line-height: 22px colo;
 }
-.about-me .contents .mini-title, .detail {
+.about-me .contents .mini-title,
+.detail {
   color: var(--text-clr);
 }
 .about-me .contents .mini-title {
@@ -184,7 +187,8 @@ header {
 .resume {
   margin: 130px 0 113px;
 }
-.education h3, h4 {
+.education h3,
+h4 {
   font-weight: 700;
   color: var(--text-clr);
 }
@@ -206,11 +210,49 @@ header {
   border: none;
 }
 .resume-main .education .box span {
-    display: block;
+  display: block;
   margin: 10px 0 20px;
   font-weight: 600;
   color: #757575;
 }
 .resume-main .education .box p {
   width: 80%;
+}
+
+/* *Footer Start */
+footer {
+  padding: 130px 0;
+  background-color: var(--bg-clr);
+}
+.footer-container {
+  gap: 165px;
+}
+.footer-title {
+  font-size: 35px;
+  font-weight: 700;
+  color: var(--heading-clr);
+}
+.content p {
+  margin: 20px 0  30px;
+  width: 530px;
+}
+.content span:not(:last-child) {
+  margin-right: 30px;
+}
+form input, textarea, button {
+  margin-top: 24px;
+}
+form input, textarea {
+  padding: 18px 30px;
+  width: 160% !important;
+  border-radius: var(--border-radius);
+  border: none;
+  outline: none;
+  color: #757575;
+}
+.form input:focus, textarea:focus {
+  outline: 2px solid var(--primary-clr);
+}
+.footer-button {
+  width: 150px;
 }
