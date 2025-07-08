@@ -225,7 +225,12 @@ footer {
   background-color: var(--bg-clr);
 }
 .footer-container {
-  gap: 165px;
+  gap: 50px;
+}
+
+.content, .form {
+  flex: 1;
+  min-width: 300px;
 }
 .footer-title {
   font-size: 35px;
@@ -239,12 +244,12 @@ footer {
 .content span:not(:last-child) {
   margin-right: 30px;
 }
-form input, textarea, button {
+form input, textarea, .footer-button {
   margin-top: 24px;
 }
 form input, textarea {
   padding: 18px 30px;
-  width: 160% !important;
+  width: 100%;
   border-radius: var(--border-radius);
   border: none;
   outline: none;
