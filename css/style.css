@@ -97,7 +97,7 @@ header {
   background-image: url(../image/developer.png), url(../image/header_bg.png);
   background-position: 30px center, bottom right;
   background-repeat: no-repeat;
-  background-size: 5%, 50% 70%;
+  background-size: 5%, 40%;
 }
 
 /* *Hero Start */
@@ -126,7 +126,7 @@ header {
 }
 .hero .image img {
   position: relative;
-  left: 15%;
+  left: 30%;
 }
 
 /* *About Me Start */
