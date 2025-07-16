@@ -1,0 +1,200 @@
+/* *  MOBILE */
+@media screen and (max-width: 576px) {
+  /* *Utilitize Class */
+  .container {
+    width: 95%;
+  }
+
+  /* *Hero Start */
+  header {
+    background: none !important;
+  }
+
+  .hero {
+    margin-top: 0;
+  }
+
+  .hero-container {
+    flex-direction: column-reverse;
+    gap: 50px;
+  }
+
+  .hero-container .content {
+    padding-bottom: 30px;
+  }
+
+  .hero .image img {
+    left: 0;
+  }
+
+  /* *About Me Start */
+  .about-me .titles .desciption {
+    margin: 30px 0 40px;
+  }
+  .about-me .contents {
+    margin: 70px auto;
+    width: 70%;
+  }
+  .about-items {
+    gap: 25px 40px;
+  }
+
+  /* *What I Do Start */
+  .skill-cards {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* gap: 20px; */
+  }
+  .skill-cards .card {
+    width: 100%;
+  }
+
+  /* *Resume Start */
+  .resume-main {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 90px;
+  }
+  .resume-main .education .box p {
+    margin-inline: auto;
+}
+
+  /* *Footer Start */
+  footer {
+    padding: 80px 0;
+  }
+  .footer-container {
+    flex-direction: column-reverse;
+  }
+  .form input,
+  textarea {
+    box-sizing: border-box;
+  }
+}
+
+/* *  TABLET */
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  /* *Utilitize Class */
+  .container {
+    width: 90%;
+  }
+
+  /* *Hero Start */
+  header {
+    background: none !important;
+  }
+
+  .hero {
+    margin-top: 0;
+  }
+
+  .hero-container {
+    flex-direction: column-reverse;
+    gap: 50px;
+  }
+
+  .hero-container .content {
+    padding-bottom: 30px;
+  }
+
+  .hero .image img {
+    left: 0;
+  }
+
+  /* *About Me Start */
+  .about-me .titles .desciption {
+    margin: 30px 0 40px;
+  }
+  .about-me .contents {
+    margin: 90px auto;
+    width: 70%;
+  }
+  .about-items {
+    gap: 25px 40px;
+  }
+
+  /* *What I Do Start */
+  .skill-cards {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .skill-cards .card {
+    width: 38%;
+  }
+
+  /* *Resume Start */
+  .education h4 {
+    font-size: 20px;
+  }
+
+  /* *Footer Start */
+  footer {
+    padding: 100px 0;
+  }
+  .footer-container {
+    flex-direction: column-reverse;
+  }
+  .form input,
+  textarea {
+    box-sizing: border-box;
+  }
+}
+
+/* *  DESKTOP */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  /* *Hero Start */
+  .hero .content h1 {
+    font-size: 70px;
+  }
+
+  .hero .content p {
+    width: 100%;
+  }
+
+  .hero .image img {
+    left: 80px;
+  }
+  /* *Hero End */
+
+  /* *About Me Start */
+  .about-me .titles .desciption {
+    margin: 30px 0 40px;
+  }
+  .about-me .contents {
+    margin: 100px auto;
+    width: 70%;
+  }
+  .about-items {
+    gap: 25px 50px;
+  }
+
+  /* *What I Do Start */
+  .skill-cards {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .skill-cards .card {
+    width: 23%;
+  }
+
+  /* *Footer Start */
+  footer .content p {
+    width: 330px;
+  }
+}
+
+/* *  LARGER DEVICES */
+@media screen and (min-width: 1025px) and (max-width: 1240px) {
+  /* *About Me */
+  .about-me .titles .desciption {
+    margin: 30px 0 40px;
+  }
+  .about-items {
+    gap: 25px 50px;
+  }
+
+  /* *Footer Start */
+  footer .content p {
+    width: 400px;
+  }
+}

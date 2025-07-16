@@ -275,3 +275,8 @@ textarea:focus {
 .footer-button {
   width: 150px;
 }
+
+
+.display-none {
+  display: none;
+}
